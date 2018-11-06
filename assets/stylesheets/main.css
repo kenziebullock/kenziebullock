@@ -22,6 +22,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -96,6 +97,9 @@ html, body {
 
 .proj-overlay {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid grey;
   opacity: 0;
   z-index: 1;
@@ -110,7 +114,7 @@ html, body {
 }
 
 .proj-overlay:hover {
-  opacity: 0.75;
+  opacity: 0.85;
   background-color: #13191E;
 }
 
@@ -194,7 +198,7 @@ a.nav-link:hover {
   text-decoration: none;
   font-size: 1.5em;
   font-weight: lighter;
-  color: #693b58;
+  color: #0099AE;
 }
 
 .projects-section {
@@ -298,7 +302,7 @@ a.project-link:hover {
 
 .proj-title {
   text-decoration: uppercase;
-  color: #f5c453;
+  color: #00B29A;
   margin-top: 2em;
   margin-bottom: 1em;
 }
@@ -316,8 +320,10 @@ a.project-link:hover {
 }
 
 .overlay-link {
-  justify-content: center;
-  align-self: center;
+  color: white;
+  padding: 1em;
+  border: solid #835a94 1px;
+  text-decoration: none;
 }
 
 .contact {
@@ -343,9 +349,9 @@ footer.footer {
 .contact-me {
   padding: 1em;
   margin: 2em;
-  border: black solid 1px;
+  border: #00B29A solid 1px;
   text-decoration: none;
-  color: black;
+  color: #00B29A;
   -webkit-transition: background-color 0.5s ease-in-out, 1s;
   -moz-transition: background-color 0.5s ease-in-out, 1s;
   -o-transition: background-color 0.5s ease-in-out, 1s;
@@ -355,6 +361,7 @@ footer.footer {
 .contact-me:hover {
   background-color: #13191E;
   color: white;
+  border: #13191E solid 1px;
 }
 
 .footer-question {
