@@ -70,7 +70,8 @@ html, body {
   justify-content: center;
   align-items: center;
   /* border: 1px solid grey; */
-  width: 60vw;
+  width: 100vw;
+  max-width: 800px;
   height: 10em;
   margin-top: 2em;
   color: grey;
@@ -105,7 +106,8 @@ html, body {
   z-index: 1;
   top: 0;
   left: 0;
-  width: 60vw;
+  width: 100vw;
+  max-width: 800px;
   height: 15em;
   -webkit-transition: background-color 0.5s ease-in-out, 1s;
   -moz-transition: background-color 0.5s ease-in-out, 1s;
