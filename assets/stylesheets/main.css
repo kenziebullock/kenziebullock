@@ -285,13 +285,19 @@ a.project-link:hover {
   opacity: 1;
 }
 
+.cntr {
+  display: flex;
+}
+
 .background-cntr {
-  margin-top: 6em;
-  /* display: flex; */
+  /* margin-top: 6em; */
   position: absolute;
-  /* justify-content: center;
-  align-items: center; */
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
   left: 50%;
+  /* top: 10vh; */
 }
 
 .project-pic {
