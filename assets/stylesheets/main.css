@@ -185,11 +185,31 @@ a.nav-link {
   text-decoration: none;
 }
 
+.red:hover {
+  border: 1px solid red;
+  color: red;
+}
+
+.blue:hover {
+  border: 1px solid blue;
+  color: blue;
+}
+
+.purple:hover {
+  border: 1px solid purple;
+  color: purple;
+}
+
+.green:hover {
+  border: 1px solid #00B29A;
+  color: #00B29A;
+}
+
 a.nav-link:hover {
   /* text-shadow: 1px 1px 1px #000, 3px 3px 5px red; */
   opacity: 1;
-  color: rgba(0, 38, 255, 0.685);
-  border: 1px solid rgba(0, 38, 255, 0.685);
+  /* color: rgba(0, 38, 255, 0.685);
+  border: 1px solid rgba(0, 38, 255, 0.685); */
   /* background-color: white; */
 }
 
