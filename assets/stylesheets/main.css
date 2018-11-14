@@ -440,3 +440,8 @@ footer.footer {
 .project-sec-title {
   font-size: 1.5em;
 }
+
+.stable-icon {
+  width: 100px;
+  height: 100px;
+}
