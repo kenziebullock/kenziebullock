@@ -113,10 +113,10 @@ html, body {
   width: 100vw;
   max-width: 800px;
   height: 15em;
-  -webkit-transition: background-color 0.5s ease-in-out, 1s;
-  -moz-transition: background-color 0.5s ease-in-out, 1s;
-  -o-transition: background-color 0.5s ease-in-out, 1s;
-  transition: background-color 0.5s ease-in-out, 1s;
+  -webkit-transition: background-color 0.25s ease-in-out, 0.5s;
+  -moz-transition: background-color 0.25s ease-in-out, 0.5s;
+  -o-transition: background-color 0.25s ease-in-out, 0.5s;
+  transition: background-color 0.25s ease-in-out, 0.5s;
 }
 
 .proj-overlay:hover {
@@ -391,6 +391,7 @@ footer.footer {
   background-color: #13191E;
   color: white;
   border: #13191E solid 1px;
+  transform: scale(1.1);
 }
 
 .footer-question {
