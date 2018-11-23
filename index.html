@@ -35,27 +35,87 @@
       </div>
       
       
-      <div class="row navbar">
+      <div id="target" class="row navbar">
         <nav class="nav">
           <!-- <a class="nav-link" href="https://kenziebullock.com/blog" target="_blank">ABOUT</a> -->
           <a class="nav-link red" href="index.html#target" target="_blank">PROJECTS</a>
           <a class="nav-link blue" href="https://kenziebullock.com/blog" target="_blank">BLOG</a>
           <a class="nav-link purple" href="https://resume.creddle.io/resume/cj9u5enhkmu" target="_blank">RESUME</a>
           <a class="nav-link green" href="https://kenziebullock.com/blog" target="_blank">CONTACT</a>
+          <a class="nav-link red trigger">ABOUT ME</a>
         </nav>
+      </div>
+
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <div class="modal-stuffs">
+            <div class="modal-prof-pic">
+              <img class="profile-pic" src="./assets/profile.jpg">
+              <p class="">I am a full-stack developer with a passion for improving the way people benefit from and interact with technology. I am currently working on a side project using React called Life-Stats. I am also accepting freelance work, please <a class="" href="mailto:kenziebullock13@gmail.com">email me</a> if you are interested.</p>
+            </div>
+            <div class="modal-skills">
+                <h4 class="modal-title">Skills</h4>
+              <div class="modal-about">
+                <img class="icon" src="https://img.icons8.com/color/50/000000/js.png">
+                <p>Javascript</p>
+              </div>
+              <div class="modal-about">
+                <img class="icon" src="https://img.icons8.com/color/50/000000/nodejs.png">
+                <p>Node.js</p>
+              </div>
+              <div class="modal-about">
+                <img class="icon" src="https://img.icons8.com/ios/40/ffffff/react-native.png">
+                <p>React</p>
+              </div>
+              <div class="modal-about">
+                <img class="icon" src="https://img.icons8.com/color/40/000000/html-5.png">
+                <p>HTML5</p>
+              </div>
+              <div class="modal-about">
+                <img class="icon" src="https://img.icons8.com/color/40/ffffff/css3.png">
+                <p>CSS3</p>
+              </div>
+              <div class="modal-about">
+                <img class="icon" src="assets/sass.png">
+                <p>SASS</p>
+              </div>
+              <div class="modal-about">
+                <img class="icon" src="https://img.icons8.com/color/40/000000/ruby-programming-language.png">
+                <p>Ruby</p>
+              </div>
+              <div class="modal-about">
+                <img class="icon" src="assets/rails.png">
+                <p>Rails</p>
+              </div>
+              <div class="modal-about">
+                <img class="icon" src="https://img.icons8.com/color/40/000000/mongodb.png">
+                <p>MongoDB</p>
+              </div>
+              <div class="modal-about">
+                <img class="icon" src="https://img.icons8.com/color/40/ffffff/postgreesql.png">
+                <p>PostgreSQL</p>
+              </div>
+              <div class="modal-about">
+                <img class="icon" src="https://img.icons8.com/color/40/000000/github.png">
+                <p>Github</p>
+              </div>  
+            </div>
+          </div>
+        </div>
       </div>
       
     </section>
     
     <section class="projects-section">
 
-      <div id="target">
+      <div>
         <h3 class="project-sec-title">Latest Projects:</h3>
         <ul>
           <li>
             <div class="card">
               <a class="projects project-card" href="https://github.com/kenziebullock/Life-Stats" >Life Stats</a>
-              <a class="proj-overlay" href="https://github.com/kenziebullock/Life-Stats" >
+              <a class="proj-overlay" target="_blank" href="https://github.com/kenziebullock/Life-Stats" >
                 <span class="overlay-link">See Project →</span>
               </a>
               
@@ -69,7 +129,7 @@
           <li>
             <div class="card">
               <a class="projects project-card stable" href="https://github.com/kenziebullock/Final-Project" ><img class="stable-icon" src="assets/stable.png"></a>
-              <a class="proj-overlay" href="https://github.com/kenziebullock/Final-Project" >
+              <a class="proj-overlay" target="_blank" href="https://github.com/kenziebullock/Final-Project" >
                 <span class="overlay-link">See Project →</span>
               </a>
               
@@ -83,7 +143,7 @@
           <li>
             <div class="card">
               <a class="projects project-card" href="https://github.com/kenziebullock/resource-wall-project" >Resource Wall</a>
-              <a class="proj-overlay" href="https://github.com/kenziebullock/resource-wall-project" >
+              <a class="proj-overlay" target="_blank" href="https://github.com/kenziebullock/resource-wall-project" >
                 <span class="overlay-link">See Project →</span>
               </a>
               
@@ -97,7 +157,7 @@
           <li>
             <div class="card">
               <a class="projects project-card" href="https://github.com/kenziebullock/jungle-rails" >Jungle</a>
-              <a class="proj-overlay" href="https://github.com/kenziebullock/jungle-rails" >
+              <a class="proj-overlay" target="_blank" href="https://github.com/kenziebullock/jungle-rails" >
                 <span class="overlay-link">See Project →</span>
               </a>
               
@@ -112,7 +172,7 @@
             <div class="card">
               <!-- <img class="chatty-pic" src="./assets/chatty.png"> -->
               <a class="projects project-card" href="https://github.com/kenziebullock/chatty-app" >Socket Chat</a>
-              <a class="proj-overlay" href="https://github.com/kenziebullock/chatty-app" >
+              <a class="proj-overlay" target="_blank" href="https://github.com/kenziebullock/chatty-app" >
                 <span class="overlay-link">See Project →</span>
               </a>
               <h4 class="proj-title">React / Websockets</h4>
@@ -125,7 +185,7 @@
           <li>
             <div class="card">
               <a class="projects project-card" href="https://github.com/kenziebullock/tweeter" >Tweeter</a>
-              <a class="proj-overlay" href="https://github.com/kenziebullock/tweeter" >
+              <a class="proj-overlay" target="_blank" href="https://github.com/kenziebullock/tweeter" >
                 <span class="overlay-link">See Project →</span>
               </a>
               <h4 class="proj-title">Express / Node.js / HTML5 / SASS</h4>
