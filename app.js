@@ -19,6 +19,11 @@ $( document ).ready(() => {
     return false;
   });
 
+  $('#home-menu').on('click', () => {
+    $('.menu').toggleClass('expand');
+    return false;
+  })
+
   // Stick nav to top of screen
   var stickyNavTop = $('#nav').offset().top;
 
