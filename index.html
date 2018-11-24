@@ -13,7 +13,7 @@
     <script src="app.js"></script>
   </head>
 
-  <body class="main-body gradient">
+  <body id="home" class="main-body gradient">
     <section>
 
       <div style="display: flex">
@@ -27,7 +27,7 @@
           <div class="name-content">
             <p class="my-name">Hello, I'm <span id="highlight">Kenzie Bullock.</span></p>
             <p class="my-title">I'm a full-stack web developer.</p>
-            <a class="row project-link" href="index.html#target">Learn more about what I do.</a>
+            <a class="row project-link" href="index.html#nav">Learn more about what I do.</a>
             <div >
             </div>
           </div>
@@ -35,14 +35,15 @@
       </div>
       
       
-      <div id="target" class="row navbar">
-        <nav class="nav">
-          <!-- <a class="nav-link" href="https://kenziebullock.com/blog" target="_blank">ABOUT</a> -->
-          <a class="nav-link red" href="index.html#target" target="_blank">PROJECTS</a>
-          <a class="nav-link blue" href="https://kenziebullock.com/blog" target="_blank">BLOG</a>
-          <a class="nav-link purple" href="https://resume.creddle.io/resume/cj9u5enhkmu" target="_blank">RESUME</a>
-          <a class="nav-link green" href="https://kenziebullock.com/blog" target="_blank">CONTACT</a>
-          <a class="nav-link red trigger">ABOUT ME</a>
+      <div id="nav" class="row navbar">
+        <a id="menu-icon">&#9776;</a>
+        <nav class="nav menu">
+          <a id="link-wrap" class="nav-link red" href="index.html#home">HOME</a>
+          <a id="link-wrap" class="nav-link green trigger">ABOUT ME</a>
+          <a id="link-wrap" class="nav-link blue" href="index.html#projects">PROJECTS</a>
+          <a id="link-wrap" class="nav-link purple" href="https://kenziebullock.com/blog" target="_blank">BLOG</a>
+          <a id="link-wrap" class="nav-link red" href="https://resume.creddle.io/resume/cj9u5enhkmu" target="_blank">RESUME</a>
+          <a id="link-wrap" class="nav-link green" href="index.html#target2">CONTACT</a>
         </nav>
       </div>
 
@@ -110,17 +111,17 @@
     <section class="projects-section">
 
       <div>
-        <h3 class="project-sec-title">Latest Projects:</h3>
+        <h3 id="projects" class="project-sec-title">Latest Projects:</h3>
         <ul>
           <li>
             <div class="card">
-              <a class="projects project-card" href="https://github.com/kenziebullock/Life-Stats" >Life Stats</a>
+              <a class="projects project-card" href="https://github.com/kenziebullock/Life-Stats" ><img class="stable-icon" src="assets/icons8-combo-chart-filled-50.png"></a>
               <a class="proj-overlay" target="_blank" href="https://github.com/kenziebullock/Life-Stats" >
                 <span class="overlay-link">See Project →</span>
               </a>
               
               <h4 class="proj-title">React / Firebase / Express</h4>
-              <span class="proj-desc">Currently in development.</span>
+              <span class="proj-desc">Life-Stats: Journaling App. Currently in development.</span>
             </div>
           </li>
           
@@ -199,7 +200,7 @@
       
     <section>
 
-      <div class="contact">
+      <div id="target2" class="contact">
         <hr/>
         <h2 class="footer-question">Interested in doing a project with me?</h2>
         <a class="contact-me" href="mailto:kenziebullock13@gmail.com">Email me!</a>
@@ -209,6 +210,9 @@
 
     <section class="social-media">
       <h4 class="social-title">Social</h4>
+      <!-- <a class="social-link git" href="https://github.com/kenziebullock"><img src="https://img.icons8.com/ios/40/ffffff/github-filled.png"></a>
+      <a class="social-link linked" href="https://www.linkedin.com/in/mackenzie-bullock/"><img src="https://img.icons8.com/ios/40/ffffff/linkedin-filled.png"></a>
+      <a class="social-link twitter" href="https://twitter.com/kenzieb_13"><img src="https://img.icons8.com/ios/40/ffffff/twitter-filled.png"></a> -->
       <ul>
         <li class="social-link">
           <a class="social-link git" href="https://github.com/kenziebullock">GitHub</a>

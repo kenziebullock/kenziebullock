@@ -1,13 +1,37 @@
-$( document ).ready(() => {
-  console.log('doc ready');
-  $('.projects').mouseover(() => {
-    // console.log('works');
-    $('.project-stack').css("display", "block")
-  }).mouseleave(() => {
-    // console.log('yup')
-    $('.project-stack').css("display", "none")
-  })
 
+$( document ).ready(() => {
+  
+  // $('.projects').mouseover(() => {
+  //   // console.log('works');
+  //   $('.project-stack').css("display", "block")
+  // }).mouseleave(() => {
+  //   // console.log('yup')
+  //   $('.project-stack').css("display", "none")
+  // })
+
+  // Toggle visible on burger menu
+  // $('.menu-icon').click(function() {
+  //   $('.link-wrap').toggleClass('visible');
+  // });
+
+  $('#menu-icon').on('click', function(){
+    $('.menu').toggleClass('expand');
+    return false;
+  });
+
+  // Stick nav to top of screen
+  var stickyNavTop = $('#nav').offset().top;
+
+  $(window).scroll(function() {  
+      if ($(window).scrollTop() > stickyNavTop) {
+          $('#nav').addClass('fixed');
+      }
+      else {
+          $('#nav').removeClass('fixed');
+      }  
+  });
+
+  // Smooth Scrolling
   // Select all links with hashes
   $('a[href*="#"]')
   // Remove links that don't actually link to anything
